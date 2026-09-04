@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.env
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Data files: never commit raw or generated datasets
+*.csv
+*.csv.gz
+*.parquet
+*.parquet.gzip
+*.parquet.snappy
+
+data/raw/*
+!data/raw/.gitkeep
+
+data/processed/*
+!data/processed/.gitkeep
+
+# Logs / temporary files
+*.log
+.tmp/
+tmp/
