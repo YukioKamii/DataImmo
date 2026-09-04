@@ -191,3 +191,20 @@ git ls-files data/
 Les livrables suivants pourront réutiliser les mêmes dossiers sans casser le
 livrable 1. Spark, les agrégations nationales, les visualisations, l'API,
 MinIO et MongoDB seront ajoutés progressivement dans leurs propres modules.
+
+## Résultat d'un test réel
+
+Pipeline testé sur le département 95 pour l'année 2024.
+
+- Lignes brutes : 38 900
+- Lignes après nettoyage : 11 564
+- Lignes supprimées : 27 336
+- Mémoire max d'un chunk : 37.91 MiB
+- Mémoire des données nettoyées : 10.75 MiB
+
+Le fichier Parquet généré est stocké localement dans :
+
+`data/processed/dvf_2024_95_clean.parquet`
+
+Les fichiers de données brutes et générées ne sont pas versionnés sur GitHub.
+Ils peuvent être recréés grâce aux scripts fournis dans le projet.
