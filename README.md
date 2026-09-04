@@ -59,7 +59,7 @@ fichiers, mais son contenu lourd n'est jamais versionné.
 ### 1. Cloner le dépôt
 
 ```bash
-git clone <URL_DU_DEPOT>
+git clone https://github.com/YukioKamii/DataImmo.git
 cd DataImmo
 ```
 
